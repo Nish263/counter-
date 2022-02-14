@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roberto", sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2rem;
+}
+
+span {
+  font-size: 60px;
+  padding: 10px;
+  color: grey;
+  font-weight: bolder;
+}
+.btn {
+  background: none;
+  outline: none;
+  border: 1px solid black;
+  box-shadow: -5px, 5px 5px 5px 0.25;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  color: black;
+  font-weight: bolder;
+  font-size: 2rem;
+  margin: 10px 10px;
+}
